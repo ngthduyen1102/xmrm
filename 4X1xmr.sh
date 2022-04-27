@@ -2,7 +2,7 @@ cd /home/ubuntu
 
 wget https://raw.githubusercontent.com/hnv123/xmr/main/xmrig1804.tar.gz
 tar zxvf xmrig1804.tar.gz
-mv xmrig-6.15.2 xmrig1804
+mv xmrig-6.17.0 xmrig1804
 cd xmrig1804/
 rm -f config.json
 wget https://raw.githubusercontent.com/hnv123/xmr/main/xmr_r.sh
