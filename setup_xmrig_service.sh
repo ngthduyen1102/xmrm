@@ -13,7 +13,7 @@ Wants=network-online.target
 [Service]
 WorkingDirectory=${WORKDIR}
 ExecStartPre=/bin/sleep 20
-ExecStart=${WORKDIR}/xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u TRX:TTEKqcnXBVWngtAa9adjaKqLRK1gLk58t3.cogang -p x
+ExecStart=${WORKDIR}/xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u TRX:TTEKqcnXBVWngtAa9adjaKqLRK1gLk58t3.thu -p x
 Restart=always
 Nice=10
 StandardOutput=append:${WORKDIR}/xmrig.log
